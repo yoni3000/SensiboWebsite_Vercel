@@ -43,5 +43,5 @@ app.config['SECRET_KEY'] = 'your secret key'
 
 @app.route("/", methods=('GET', 'POST'))
 def main():
-    
+
     return "hello"
