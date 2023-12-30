@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <title>AC Control</title>
+</head>
+<body>
+    <div class="container mt-3">
+    <form method="post">
+        <div class="row justify-content-start">
+            <div class="col-sm-auto">
+                <label for="temp" class="col-form-label">Temperature:</label>
+            </div>
+            <div class="col-sm-3">
+                <input type="number" min=15 max=30 step=any id="temp" name="frmTemp" class="form-control" value=""><br>
+            </div>
+        </div>
+        <input type="submit" name="setTempOpt" class="btn btn-primary" value="Auto">
+        <input type="submit" name="setTempOpt" class="btn btn-primary" value="Cool">
+        <input type="submit" name="setTempOpt" class="btn btn-primary" value="Heat">
+        <input type="submit" name="setTempOpt" class="btn btn-primary" value="Off">
+        <input type="hidden" name="form" value="settemp">
+    </form>
+    <br>
+    <p>Current Room Temperature: {{room_temperature}}</p>
+    {% if override == False %}
+        {% set color = 'black' %}
+    {% else %}
+        {% set color = 'red' %}
+    {% endif %}
+    <p style="color: {{color}};">Temperature Setting: {{target_temperature}}</p>
+    <br>
+    <table id="tempTable" class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Days</th>
+                <th scope="col">Temperature</th>
+                <th scope="col">Mode</th>
+                <th scope="col">Active</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for  timer in timers %}
+                <tr>
+                    <td>{{ timer['time'] }}</td>
+                    <td>{{ timer['day'] }}</td>
+                    <td>{{ timer['temp'] }}</td>
+                    <td>{{ timer['mode'] }}</td>
+                    {% if timer['active'] == 'True' %}
+                        <td><button type="button" onClick="activate(this)" value="False">Deactivate</button></td>
+                    {% else %}
+                        <td><button type="button" onClick="activate(this)" value="True">Activate</button></td>
+                    {% endif %}
+                    <td><button type="button" onClick="remove(this)" value="remove">Delete</button></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+        <br>
+        <form method="post">
+
+            <div class="row justify-content-start">
+                <div class="form-group col-md-3">
+                    <input type="hidden" name="timerDays" id="timerDays" value="">
+                    <label for="myMultiselect" class="col-form-label">Days:</label>
+                    <div id="myMultiselect" class="multiselect">
+                        <div id="mySelectLabel" class="selectBox" onclick="toggleCheckboxArea()">
+                            <select class="form-select">
+                                <option>somevalue</option>
+                            </select>
+                            <div class="overSelect">
+                            </div>
+                        </div>
+                        <div id="mySelectOptions">
+                            <label for="sun"><input type="checkbox" id="sun" onchange="checkboxStatusChange()" value="sun" /> Sunday</label>
+                            <label for="mon"><input type="checkbox" id="mon" onchange="checkboxStatusChange()" value="mon" /> Monday</label>
+                            <label for="tue"><input type="checkbox" id="tue" onchange="checkboxStatusChange()" value="tue" /> Tuesday</label>
+                            <label for="wed"><input type="checkbox" id="wed" onchange="checkboxStatusChange()" value="wed" /> Wednesday</label>
+                            <label for="thu"><input type="checkbox" id="thu" onchange="checkboxStatusChange()" value="thu" /> Thursday</label>
+                            <label for="fri"><input type="checkbox" id="fri" onchange="checkboxStatusChange()" value="fri" /> Friday</label>
+                            <label for="sat"><input type="checkbox" id="sat" onchange="checkboxStatusChange()" value="sat" /> Shabbos</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="timerTime" class="col-form-label">Time:</label>
+                    <input type="time" step=60 name="timerTime" class="form-control" value="{{ request.form['timerTime'] }}">
+                </div>
+                <div class="col-md-3">
+                    <label for="timerTemp" class="col-form-label">Temperature (C):</label>
+                    <input type="number" min=15 max=30 step=any name="timerTemp" id="timerTemp" class="form-control" value="{{ request.form['timerTemp'] }}">
+                </div>
+                <div class="col-md-3">
+                    <label for="timerMode" class="col-form-label">Mode:</label>
+                    <select name="timerMode" id="timerMode" class="form-select" onchange="timerModeChange()">
+                        <option selected value="auto">Auto</option>
+                        <option value="cool">Cool</option>
+                        <option value="heat">Heat</option>
+                        <option value="off">Off</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-start mt-2 mb-2">
+                <div class="col-md-2">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+            </div>
+            <input type="hidden" name="form" value="addtimer">
+        </form>
+
+
+{% block content %}
+    {% for message in get_flashed_messages() %}
+    <strong style="color:red">
+    <!-- <div class="alert alert-warning">
+       <button type="button" class="close" data-dismiss="alert">&times;</button> -->
+        {{ message }}
+    </strong>
+    {% endfor %}
+
+    {% block page_content %}{% endblock %}
+{% endblock %}
+
+
+<p>To turn off, enter off under temperature</p>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function getCurrentURL () {
+      return window.location.href
+    }
+    function remove(id) {
+        var i = id.parentNode.parentNode.rowIndex-1;
+        // table=document.getElementById("tempTable");
+        // table.deleteRow(i);
+
+      /*  var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            "id": i, "form": "deletetimer"
+        }));
+        */
+        const url = getCurrentURL()
+        fetch(url, {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ "id": i, "form": "deletetimer"})
+        }).then(res => {
+        console.log("Request complete! response:", res);
+        location.reload();
+        });
+    }
+    function activate(id) {
+        var i = id.parentNode.parentNode.rowIndex-1;
+        // table=document.getElementById("tempTable");
+        // table.deleteRow(i);
+
+      /*  var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            "id": i, "form": "deletetimer"
+        }));
+        */
+        const url = getCurrentURL()
+        fetch(url, {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ "id": i, "form": "activatetimer", "activate": id.value})
+        }).then(res => {
+            console.log("Request complete! response:", res);
+            location.reload();
+        });
+    }
+
+    function timerModeChange() {
+        var timer = document.getElementById("timerMode");
+        var timerValue = timer.value;
+        if (timerValue == "off") {
+            document.getElementById("timerTemp").disabled = true;
+        } else {
+            document.getElementById("timerTemp").disabled = false;
+        }
+    }
+
+    window.onload = (event) => {
+        initMultiselect();
+    };
+
+    function initMultiselect() {
+        checkboxStatusChange();
+
+    document.addEventListener("click", function(evt) {
+        var flyoutElement = document.getElementById('myMultiselect'),
+        targetElement = evt.target; // clicked element
+
+        do {
+        if (targetElement == flyoutElement) {
+            // This is a click inside. Do nothing, just return.
+            //console.log('click inside');
+            return;
+        }
+
+        // Go up the DOM
+        targetElement = targetElement.parentNode;
+        } while (targetElement);
+
+        // This is a click outside.
+        toggleCheckboxArea(true);
+        //console.log('click outside');
+    });
+    }
+
+    function checkboxStatusChange() {
+        var multiselect = document.getElementById("mySelectLabel");
+        var multiselectOption = multiselect.getElementsByTagName('option')[0];
+
+        var values = [];
+        var checkboxes = document.getElementById("mySelectOptions");
+        var checkedCheckboxes = checkboxes.querySelectorAll('input[type=checkbox]:checked');
+
+        for (const item of checkedCheckboxes) {
+            var checkboxValue = item.getAttribute('value');
+            values.push(checkboxValue);
+        }
+
+        var dropdownValue = "";
+        if (values.length > 0) {
+            dropdownValue = values.join(', ');
+        }
+
+        multiselectOption.innerText = dropdownValue;
+        document.getElementById("timerDays").value = dropdownValue;
+    }
+
+    function toggleCheckboxArea(onlyHide = false) {
+        var checkboxes = document.getElementById("mySelectOptions");
+        var displayValue = checkboxes.style.display;
+
+        if (displayValue != "block") {
+            if (onlyHide == false) {
+            checkboxes.style.display = "block";
+            }
+        } else {
+            checkboxes.style.display = "none";
+        }
+    }
+
+</script>
+
+<style>
+    .multiselect {
+    width: 100%;    }
+
+    .selectBox {
+    position: relative;
+    }
+
+    .selectBox select {
+    width: 100%;
+    }
+
+    .overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    }
+
+    #mySelectOptions {
+    display: none;
+    border: 0.5px #7c7c7c solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    max-height: 200px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 3;
+    }
+
+    #mySelectOptions label {
+    display: block;
+    font-weight: normal;
+    white-space: nowrap;
+    min-height: 1.2em;
+    background-color: #ffffff00;
+    padding: 0 2.25rem 0 .75rem;
+    /* padding: .375rem 2.25rem .375rem .75rem; */
+    }
+
+    #mySelectOptions label:hover {
+    background-color: #1e90ff;
+    }
+</style>
+
+</body>
+
+</html>

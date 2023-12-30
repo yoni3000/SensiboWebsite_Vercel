@@ -1,0 +1,962 @@
+19-12-2022, 23:09:00: This is a test.
+19-12-2022, 23:09:00: This is another test
+19-12-2022, 23:09:01: This is a test.
+19-12-2022, 23:09:01: This is another test
+21-12-2022, 19:53:33: Attempt initiation of sensibo.
+21-12-2022, 19:53:40: Initialization complete with invalid setting entry. Setting set to override.
+21-12-2022, 20:27:44: Attempt initiation of sensibo.
+21-12-2022, 20:27:49: Initialization successful.
+22-12-2022, 23:44:25: Attempt initiation of sensibo.
+22-12-2022, 23:44:35: Initialization successful.
+27-12-2022, 20:26:41: Attempt initiation of sensibo.
+28-12-2022, 19:51:16: Attempt initiation of sensibo.
+28-12-2022, 19:51:17: Unable to connect to sensibo. Sensibo is offline or api key/room name may be invalid.
+28-12-2022, 19:51:17: Details of exception:
+28-12-2022, 19:54:05: Attempt initiation of sensibo.
+28-12-2022, 19:54:06: Unable to connect to sensibo. Sensibo is offline or api key/room name may be invalid.
+28-12-2022, 19:54:06: Details of exception:
+28-12-2022, 19:54:06: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=hhh')")
+28-12-2022, 19:57:18: Attempt initiation of sensibo.
+28-12-2022, 19:57:19: Unable to connect to sensibo. Sensibo is offline or api key/room name may be invalid.
+28-12-2022, 19:57:19: Details of exception:
+28-12-2022, 19:57:19: Exception("'Cannot open sensibo client...\\nDetails of exception:\\n'HTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=hhh')")
+28-12-2022, 20:06:04: Attempt initiation of sensibo.
+28-12-2022, 20:06:05: Successfully connected to sensibo
+28-12-2022, 20:06:05: Initialize to temperature: 22.0
+28-12-2022, 20:06:05: Room temp - set temp = -2.1000000000000014
+28-12-2022, 20:06:05: Setting AC to state:
+28-12-2022, 20:06:05: Unable to connect to sensibo. Sensibo is offline or api key/room name may be invalid.
+28-12-2022, 20:06:05: Details of exception:
+28-12-2022, 20:06:05: Exception(Exception('Error adjusting AC state...\nDetails of exception:\nTypeError(\'can only concatenate str (not "dict") to str\')'))
+28-12-2022, 20:07:46: Attempt initiation of sensibo.
+28-12-2022, 20:07:48: Successfully connected to sensibo
+28-12-2022, 20:07:48: Initialize to temperature: 22.0
+28-12-2022, 20:07:49: Room temp - set temp = -2.1000000000000014
+28-12-2022, 20:07:49: Setting AC to state:
+28-12-2022, 20:07:49: {'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:08:31: Attempt initiation of sensibo.
+28-12-2022, 20:08:35: Successfully connected to sensibo
+28-12-2022, 20:08:35: Initialize to temperature: 22.0
+28-12-2022, 20:08:35: Room temp - set temp = -2.1000000000000014
+28-12-2022, 20:08:35: Setting AC to state:
+28-12-2022, 20:08:35: {'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:09:30: Check override...
+28-12-2022, 20:09:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:09:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:09:34: Override=False
+28-12-2022, 20:09:35: Room temp - set temp = -2.0
+28-12-2022, 20:12:30: Check override...
+28-12-2022, 20:12:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:12:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:12:35: Override=False
+28-12-2022, 20:12:36: Room temp - set temp = -2.0
+28-12-2022, 20:15:29: Change temperature setting to: 23.0
+28-12-2022, 20:15:30: Check override...
+28-12-2022, 20:15:31: Room temp - set temp = -3.1000000000000014
+28-12-2022, 20:15:31: Setting AC to state:
+28-12-2022, 20:15:31: {'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 26}
+28-12-2022, 20:15:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:15:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:15:35: Override=False
+28-12-2022, 20:15:36: Room temp - set temp = -3.1000000000000014
+28-12-2022, 20:16:53: Change temperature setting to: 22.0
+28-12-2022, 20:16:54: Room temp - set temp = -2.1000000000000014
+28-12-2022, 20:16:54: Setting AC to state:
+28-12-2022, 20:16:54: {'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:18:30: Check override...
+28-12-2022, 20:18:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:18:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:18:37: Override=False
+28-12-2022, 20:18:38: Room temp - set temp = -1.6999999999999993
+28-12-2022, 20:21:30: Check override...
+28-12-2022, 20:21:35: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:21:35: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:21:40: Override=False
+28-12-2022, 20:21:41: Room temp - set temp = -1.3000000000000007
+28-12-2022, 20:24:30: Check override...
+28-12-2022, 20:24:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:24:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 20:24:34: Override=False
+28-12-2022, 20:24:37: Room temp - set temp = -1.0
+28-12-2022, 20:24:37: Setting AC to state:
+28-12-2022, 20:24:37: {'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 23}
+28-12-2022, 20:27:30: Check override...
+28-12-2022, 20:27:35: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 23}
+28-12-2022, 20:27:35: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 23}
+28-12-2022, 20:27:37: Override=False
+28-12-2022, 20:27:37: Room temp - set temp = -0.6000000000000014
+28-12-2022, 20:30:30: Check override...
+28-12-2022, 20:30:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 23}
+28-12-2022, 20:30:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 23}
+28-12-2022, 20:30:38: Override=False
+28-12-2022, 20:30:38: Room temp - set temp = -0.3000000000000007
+28-12-2022, 20:30:38: Setting AC to state:
+28-12-2022, 20:30:38: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:33:30: Check override...
+28-12-2022, 20:33:35: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:33:35: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:33:42: Override=False
+28-12-2022, 20:33:42: Room temp - set temp = 0.0
+28-12-2022, 20:33:45: Setting AC to state:
+28-12-2022, 20:33:45: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:36:30: Check override...
+28-12-2022, 20:36:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:36:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:36:35: Override=False
+28-12-2022, 20:36:36: Room temp - set temp = -0.3000000000000007
+28-12-2022, 20:39:30: Check override...
+28-12-2022, 20:39:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:39:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:39:34: Override=False
+28-12-2022, 20:39:34: Room temp - set temp = -0.6999999999999993
+28-12-2022, 20:39:34: Setting AC to state:
+28-12-2022, 20:39:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:42:30: Check override...
+28-12-2022, 20:42:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:42:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:42:36: Override=False
+28-12-2022, 20:42:37: Room temp - set temp = -0.5
+28-12-2022, 20:42:37: Setting AC to state:
+28-12-2022, 20:42:37: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:45:30: Check override...
+28-12-2022, 20:45:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:45:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:45:34: Override=False
+28-12-2022, 20:45:35: Room temp - set temp = -0.10000000000000142
+28-12-2022, 20:48:30: Check override...
+28-12-2022, 20:48:34: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:48:34: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:48:38: Override=False
+28-12-2022, 20:48:40: Room temp - set temp = 0.1999999999999993
+28-12-2022, 20:48:43: Setting AC to state:
+28-12-2022, 20:48:43: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:51:30: Check override...
+28-12-2022, 20:51:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:51:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:51:33: Override=False
+28-12-2022, 20:51:34: Room temp - set temp = -0.10000000000000142
+28-12-2022, 20:51:36: Setting AC to state:
+28-12-2022, 20:51:36: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:54:30: Check override...
+28-12-2022, 20:54:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:54:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 20:54:33: Override=False
+28-12-2022, 20:54:34: Room temp - set temp = -0.6000000000000014
+28-12-2022, 20:54:34: Setting AC to state:
+28-12-2022, 20:54:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:57:30: Check override...
+28-12-2022, 20:57:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:57:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 20:57:35: Override=False
+28-12-2022, 20:57:36: Room temp - set temp = -0.3000000000000007
+28-12-2022, 20:57:36: Setting AC to state:
+28-12-2022, 20:57:36: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:00:30: Check override...
+28-12-2022, 21:00:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:00:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:00:34: Override=False
+28-12-2022, 21:00:35: Room temp - set temp = 0.0
+28-12-2022, 21:00:38: Setting AC to state:
+28-12-2022, 21:00:38: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:03:30: Check override...
+28-12-2022, 21:03:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:03:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:03:35: Override=False
+28-12-2022, 21:03:37: Room temp - set temp = -0.3999999999999986
+28-12-2022, 21:06:30: Check override...
+28-12-2022, 21:06:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:06:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:06:34: Override=False
+28-12-2022, 21:06:36: Room temp - set temp = -0.6999999999999993
+28-12-2022, 21:06:36: Setting AC to state:
+28-12-2022, 21:06:36: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:09:30: Check override...
+28-12-2022, 21:09:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:09:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:09:34: Override=False
+28-12-2022, 21:09:34: Room temp - set temp = -0.5
+28-12-2022, 21:09:34: Setting AC to state:
+28-12-2022, 21:09:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:12:30: Check override...
+28-12-2022, 21:12:34: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:12:34: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:12:36: Override=False
+28-12-2022, 21:12:36: Room temp - set temp = 0.0
+28-12-2022, 21:12:39: Setting AC to state:
+28-12-2022, 21:12:39: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:15:30: Check override...
+28-12-2022, 21:15:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:15:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:15:33: Override=False
+28-12-2022, 21:15:34: Room temp - set temp = -0.3999999999999986
+28-12-2022, 21:18:30: Check override...
+28-12-2022, 21:18:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:18:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:18:33: Override=False
+28-12-2022, 21:18:33: Room temp - set temp = -0.6999999999999993
+28-12-2022, 21:18:33: Setting AC to state:
+28-12-2022, 21:18:33: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:21:30: Check override...
+28-12-2022, 21:21:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:21:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:21:34: Override=False
+28-12-2022, 21:21:35: Room temp - set temp = -0.5
+28-12-2022, 21:21:35: Setting AC to state:
+28-12-2022, 21:21:35: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:24:30: Check override...
+28-12-2022, 21:24:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:24:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:24:36: Override=False
+28-12-2022, 21:24:37: Room temp - set temp = -0.10000000000000142
+28-12-2022, 21:27:30: Check override...
+28-12-2022, 21:27:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:27:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:27:35: Override=False
+28-12-2022, 21:27:35: Room temp - set temp = 0.3000000000000007
+28-12-2022, 21:27:38: Setting AC to state:
+28-12-2022, 21:27:38: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:30:30: Check override...
+28-12-2022, 21:30:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:30:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:30:34: Override=False
+28-12-2022, 21:30:35: Room temp - set temp = -0.10000000000000142
+28-12-2022, 21:30:37: Setting AC to state:
+28-12-2022, 21:30:37: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:36:30: Check override...
+28-12-2022, 21:36:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:36:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:36:33: Override=False
+28-12-2022, 21:36:33: Room temp - set temp = -0.8000000000000007
+28-12-2022, 21:36:33: Setting AC to state:
+28-12-2022, 21:36:33: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:39:30: Check override...
+28-12-2022, 21:39:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:39:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:39:38: Override=False
+28-12-2022, 21:39:39: Room temp - set temp = -0.5
+28-12-2022, 21:39:39: Setting AC to state:
+28-12-2022, 21:39:39: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:42:30: Check override...
+28-12-2022, 21:42:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:42:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:42:38: Override=False
+28-12-2022, 21:42:39: Room temp - set temp = -0.10000000000000142
+28-12-2022, 21:45:30: Check override...
+28-12-2022, 21:45:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:45:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:45:34: Override=False
+28-12-2022, 21:45:35: Room temp - set temp = 0.3000000000000007
+28-12-2022, 21:45:37: Setting AC to state:
+28-12-2022, 21:45:37: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:48:30: Check override...
+28-12-2022, 21:48:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:48:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:48:34: Override=False
+28-12-2022, 21:48:34: Room temp - set temp = -0.10000000000000142
+28-12-2022, 21:48:35: Setting AC to state:
+28-12-2022, 21:48:35: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:51:30: Check override...
+28-12-2022, 21:51:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:51:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:51:34: Override=False
+28-12-2022, 21:51:35: Room temp - set temp = -0.6000000000000014
+28-12-2022, 21:51:35: Setting AC to state:
+28-12-2022, 21:51:35: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:54:30: Check override...
+28-12-2022, 21:54:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:54:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 21:54:36: Override=False
+28-12-2022, 21:54:36: Room temp - set temp = -0.1999999999999993
+28-12-2022, 21:54:36: Setting AC to state:
+28-12-2022, 21:54:36: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:57:30: Check override...
+28-12-2022, 21:57:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:57:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 21:57:34: Override=False
+28-12-2022, 21:57:36: Room temp - set temp = 0.10000000000000142
+28-12-2022, 21:57:39: Setting AC to state:
+28-12-2022, 21:57:39: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:00:30: Check override...
+28-12-2022, 22:00:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:00:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:00:34: Override=False
+28-12-2022, 22:00:34: Room temp - set temp = -0.1999999999999993
+28-12-2022, 22:00:36: Setting AC to state:
+28-12-2022, 22:00:36: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:03:30: Check override...
+28-12-2022, 22:03:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:03:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:03:37: Override=False
+28-12-2022, 22:03:37: Room temp - set temp = -0.6000000000000014
+28-12-2022, 22:03:37: Setting AC to state:
+28-12-2022, 22:03:37: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:06:30: Check override...
+28-12-2022, 22:06:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:06:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:06:35: Override=False
+28-12-2022, 22:06:37: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:06:37: Setting AC to state:
+28-12-2022, 22:06:37: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:09:30: Check override...
+28-12-2022, 22:09:34: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:09:34: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:09:37: Override=False
+28-12-2022, 22:09:37: Room temp - set temp = 0.0
+28-12-2022, 22:09:39: Setting AC to state:
+28-12-2022, 22:09:39: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:12:30: Check override...
+28-12-2022, 22:12:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:12:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:12:35: Override=False
+28-12-2022, 22:12:35: Room temp - set temp = -0.1999999999999993
+28-12-2022, 22:15:30: Check override...
+28-12-2022, 22:15:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:15:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:15:36: Override=False
+28-12-2022, 22:15:36: Room temp - set temp = -0.6000000000000014
+28-12-2022, 22:15:36: Setting AC to state:
+28-12-2022, 22:15:36: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:18:30: Check override...
+28-12-2022, 22:18:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:18:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:18:33: Override=False
+28-12-2022, 22:18:34: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:18:34: Setting AC to state:
+28-12-2022, 22:18:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:21:30: Check override...
+28-12-2022, 22:21:35: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:21:35: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:21:36: Override=False
+28-12-2022, 22:21:37: Room temp - set temp = 0.0
+28-12-2022, 22:21:42: Setting AC to state:
+28-12-2022, 22:21:42: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:24:30: Check override...
+28-12-2022, 22:24:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:24:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:24:34: Override=False
+28-12-2022, 22:24:35: Room temp - set temp = -0.1999999999999993
+28-12-2022, 22:27:30: Check override...
+28-12-2022, 22:27:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:27:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:27:34: Override=False
+28-12-2022, 22:27:35: Room temp - set temp = -0.6000000000000014
+28-12-2022, 22:27:35: Setting AC to state:
+28-12-2022, 22:27:35: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:30:30: Check override...
+28-12-2022, 22:30:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:30:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:30:34: Override=False
+28-12-2022, 22:30:35: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:30:35: Setting AC to state:
+28-12-2022, 22:30:35: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:33:30: Check override...
+28-12-2022, 22:33:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:33:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:33:34: Override=False
+28-12-2022, 22:33:34: Room temp - set temp = 0.0
+28-12-2022, 22:33:36: Setting AC to state:
+28-12-2022, 22:33:36: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:36:30: Check override...
+28-12-2022, 22:36:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:36:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:36:33: Override=False
+28-12-2022, 22:36:35: Room temp - set temp = -0.1999999999999993
+28-12-2022, 22:39:30: Check override...
+28-12-2022, 22:39:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:39:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:39:34: Override=False
+28-12-2022, 22:39:34: Room temp - set temp = -0.6000000000000014
+28-12-2022, 22:39:34: Setting AC to state:
+28-12-2022, 22:39:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:42:30: Check override...
+28-12-2022, 22:42:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:42:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:42:34: Override=False
+28-12-2022, 22:42:34: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:42:34: Setting AC to state:
+28-12-2022, 22:42:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:45:30: Check override...
+28-12-2022, 22:45:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:45:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:45:34: Override=False
+28-12-2022, 22:45:34: Room temp - set temp = 0.0
+28-12-2022, 22:45:37: Setting AC to state:
+28-12-2022, 22:45:37: {'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:48:30: Check override...
+28-12-2022, 22:48:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:48:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:48:34: Override=False
+28-12-2022, 22:48:34: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:51:30: Check override...
+28-12-2022, 22:51:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:51:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:51:34: Override=False
+28-12-2022, 22:51:37: Room temp - set temp = -0.6000000000000014
+28-12-2022, 22:51:37: Setting AC to state:
+28-12-2022, 22:51:37: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:54:30: Check override...
+28-12-2022, 22:54:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:54:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 23}
+28-12-2022, 22:54:34: Override=False
+28-12-2022, 22:54:34: Room temp - set temp = -0.3000000000000007
+28-12-2022, 22:54:34: Setting AC to state:
+28-12-2022, 22:54:34: {'on': True, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:56:03: Change setting to: OFF
+28-12-2022, 22:57:30: Check override...
+28-12-2022, 22:57:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:57:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 22:57:35: Override=False
+28-12-2022, 23:00:30: Check override...
+28-12-2022, 23:00:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:00:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:00:33: Override=False
+28-12-2022, 23:03:30: Check override...
+28-12-2022, 23:03:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:03:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:03:34: Override=False
+28-12-2022, 23:06:30: Check override...
+28-12-2022, 23:06:35: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:06:35: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:06:36: Override=False
+28-12-2022, 23:09:30: Check override...
+28-12-2022, 23:09:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:09:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:09:34: Override=False
+28-12-2022, 23:12:30: Check override...
+28-12-2022, 23:12:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:12:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:12:33: Override=False
+28-12-2022, 23:15:30: Check override...
+28-12-2022, 23:15:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:15:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:15:35: Override=False
+28-12-2022, 23:18:30: Check override...
+28-12-2022, 23:18:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:18:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:18:35: Override=False
+28-12-2022, 23:21:30: Check override...
+28-12-2022, 23:21:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:21:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:21:34: Override=False
+28-12-2022, 23:24:30: Check override...
+28-12-2022, 23:24:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:24:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+28-12-2022, 23:24:36: Override=False
+28-12-2022, 23:43:46: Attempt initiation of sensibo.
+28-12-2022, 23:43:46: Successfully connected to sensibo
+28-12-2022, 23:43:46: Change setting to: OFF
+28-12-2022, 23:44:02: Timer activated/deactivated successfully.
+28-12-2022, 23:44:06: Timer activated/deactivated successfully.
+28-12-2022, 23:44:08: Timer deleted successfully.
+28-12-2022, 23:45:30: Check override...
+28-12-2022, 23:45:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 23:45:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+28-12-2022, 23:45:35: Override=False
+29-12-2022, 23:23:43: Attempt initiation of sensibo.
+29-12-2022, 23:23:44: Successfully connected to sensibo
+29-12-2022, 23:23:44: Change setting to: OFF
+29-12-2022, 23:24:30: Check override...
+29-12-2022, 23:24:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:24:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:24:35: Override=False
+29-12-2022, 23:27:30: Check override...
+29-12-2022, 23:27:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:27:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:27:35: Override=False
+29-12-2022, 23:30:30: Check override...
+29-12-2022, 23:30:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:30:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:30:35: Override=False
+29-12-2022, 23:33:30: Check override...
+29-12-2022, 23:33:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:33:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:33:33: Override=False
+29-12-2022, 23:36:30: Check override...
+29-12-2022, 23:36:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:36:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'medium', 'targetTemperature': 22}
+29-12-2022, 23:36:37: Override=False
+29-12-2022, 23:36:54: Change temperature setting to: 22.0
+29-12-2022, 23:36:55: The current room temperature is:20.1
+29-12-2022, 23:36:55: Room temp - set temp = -1.8999999999999986
+29-12-2022, 23:36:55: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:37:00: Change setting to: OFF
+29-12-2022, 23:39:30: Check override...
+29-12-2022, 23:39:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:39:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:39:35: Override=False
+29-12-2022, 23:42:30: Check override...
+29-12-2022, 23:42:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:42:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:42:33: Override=False
+29-12-2022, 23:45:30: Check override...
+29-12-2022, 23:45:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:45:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:45:33: Override=False
+29-12-2022, 23:48:30: Check override...
+29-12-2022, 23:48:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:48:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:48:35: Override=False
+29-12-2022, 23:51:30: Check override...
+29-12-2022, 23:51:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:51:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:51:34: Override=False
+29-12-2022, 23:54:30: Check override...
+29-12-2022, 23:54:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:54:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:54:34: Override=False
+29-12-2022, 23:57:30: Check override...
+29-12-2022, 23:57:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:57:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+29-12-2022, 23:57:36: Override=False
+29-12-2022, 23:57:52: Timer added successfully.
+30-12-2022, 00:00:30: Check override...
+30-12-2022, 00:00:33: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:00:33: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:00:38: Override=False
+30-12-2022, 00:03:30: Check override...
+30-12-2022, 00:03:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:03:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:03:35: Override=False
+30-12-2022, 00:06:30: Check override...
+30-12-2022, 00:06:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:06:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+30-12-2022, 00:06:34: Override=False
+01-01-2023, 20:08:45: Error loading setting file on initialization.
+Details of exception:
+FileNotFoundError(2, 'No such file or directory')
+01-01-2023, 20:09:32: Attempt initiation of sensibo.
+01-01-2023, 20:09:32: Successfully connected to sensibo
+01-01-2023, 20:11:30: Attempt initiation of sensibo.
+01-01-2023, 20:11:31: Successfully connected to sensibo
+01-01-2023, 20:11:40: Attempt initiation of sensibo.
+01-01-2023, 20:11:40: Successfully connected to sensibo
+01-01-2023, 20:11:40: Attempt initiation of sensibo.
+01-01-2023, 20:11:41: Successfully connected to sensibo
+01-01-2023, 20:12:22: Attempt initiation of sensibo.
+01-01-2023, 20:12:23: Successfully connected to sensibo
+01-01-2023, 20:12:30: Check override...
+01-01-2023, 20:12:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 25}
+01-01-2023, 20:12:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 25}
+01-01-2023, 20:12:32: Override=True
+01-01-2023, 20:14:40: Attempt initiation of sensibo.
+01-01-2023, 20:14:41: Successfully connected to sensibo
+01-01-2023, 20:14:42: Initialization successful.
+01-01-2023, 20:15:30: Check override...
+01-01-2023, 20:15:32: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 25}
+01-01-2023, 20:15:32: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 25}
+01-01-2023, 20:15:32: Override=True
+01-01-2023, 20:15:51: Change temperature setting to: 23.0
+01-01-2023, 20:15:52: The current room temperature is:19.7
+01-01-2023, 20:15:52: Room temp - set temp = -3.3000000000000007
+01-01-2023, 20:15:52: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 26}
+01-01-2023, 20:16:05: Change temperature setting to: 20.0
+01-01-2023, 20:16:07: The current room temperature is:19.7
+01-01-2023, 20:16:07: Room temp - set temp = -0.3000000000000007
+01-01-2023, 20:16:07: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:18:30: Check override...
+01-01-2023, 20:18:32: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:18:32: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:18:34: Override=False
+01-01-2023, 20:18:34: The current room temperature is:20.1
+01-01-2023, 20:18:34: Room temp - set temp = 0.10000000000000142
+01-01-2023, 20:18:36: Setting AC to state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:21:30: Check override...
+01-01-2023, 20:21:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:21:31: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:21:32: Override=False
+01-01-2023, 20:21:33: The current room temperature is:19.9
+01-01-2023, 20:21:33: Room temp - set temp = -0.10000000000000142
+01-01-2023, 20:21:35: Setting AC to state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:31:01: Attempt initiation of sensibo.
+01-01-2023, 20:31:02: Successfully connected to sensibo
+01-01-2023, 20:31:02: Attempt initiation of sensibo.
+01-01-2023, 20:31:02: Successfully connected to sensibo
+01-01-2023, 20:31:04: Initialization successful.
+01-01-2023, 20:31:15: Change temperature setting to: 20.0
+01-01-2023, 20:31:15: The current room temperature is:19.7
+01-01-2023, 20:31:15: Room temp - set temp = -0.3000000000000007
+01-01-2023, 20:31:15: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:31:43: Attempt initiation of sensibo.
+01-01-2023, 20:31:44: Successfully connected to sensibo
+01-01-2023, 20:31:44: Initialize to temperature: 20.0
+01-01-2023, 20:31:44: The current room temperature is:19.7
+01-01-2023, 20:31:44: Room temp - set temp = -0.3000000000000007
+01-01-2023, 20:31:44: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 20}
+01-01-2023, 20:31:49: Initialization successful.
+01-01-2023, 20:31:55: Change setting to: OFF
+05-01-2023, 20:12:18: Attempt initiation of sensibo.
+05-01-2023, 20:12:19: Successfully connected to sensibo
+05-01-2023, 20:12:19: Change setting to: OFF
+05-01-2023, 20:12:23: Initialization successful.
+05-01-2023, 20:24:34: Timer added successfully.
+05-01-2023, 23:09:21: Attempt initiation of sensibo.
+05-01-2023, 23:09:25: Successfully connected to sensibo
+05-01-2023, 23:09:27: Initialization complete with invalid setting entry. Setting set to override.
+07-01-2023, 22:24:01: Attempt initiation of sensibo.
+07-01-2023, 22:24:02: Successfully connected to sensibo
+07-01-2023, 22:24:02: Change setting to: OFF
+07-01-2023, 22:24:06: Initialization successful.
+07-01-2023, 22:28:39: Attempt initiation of sensibo.
+07-01-2023, 22:28:41: Successfully connected to sensibo
+07-01-2023, 22:28:41: Change setting to: OFF
+07-01-2023, 22:28:45: Initialization successful.
+10-01-2023, 17:53:12: Attempt initiation of sensibo.
+10-01-2023, 17:53:12: Successfully connected to sensibo
+10-01-2023, 17:53:12: Change setting to: OFF
+10-01-2023, 17:53:16: Initialization successful.
+10-01-2023, 20:28:44: Attempt initiation of sensibo.
+10-01-2023, 20:28:46: Successfully connected to sensibo
+10-01-2023, 20:28:46: Change setting to: OFF
+10-01-2023, 20:28:51: Initialization successful.
+10-01-2023, 20:33:33: Attempt initiation of sensibo.
+10-01-2023, 20:33:34: Successfully connected to sensibo
+10-01-2023, 20:33:34: Change setting to: OFF
+10-01-2023, 20:33:38: Initialization successful.
+10-01-2023, 20:33:59: Timer added successfully.
+10-01-2023, 20:34:04: Timer deleted successfully.
+10-01-2023, 20:37:04: Attempt initiation of sensibo.
+10-01-2023, 20:37:05: Successfully connected to sensibo
+10-01-2023, 20:37:05: Change setting to: OFF
+10-01-2023, 20:37:08: Initialization successful.
+10-01-2023, 20:37:46: Timer added successfully.
+10-01-2023, 20:37:53: Timer deleted successfully.
+11-01-2023, 08:02:38: Attempt initiation of sensibo.
+11-01-2023, 08:02:39: Successfully connected to sensibo
+11-01-2023, 08:02:39: Change setting to: OFF
+11-01-2023, 08:02:43: Initialization successful.
+11-01-2023, 08:03:01: Timer activated/deactivated successfully.
+11-01-2023, 08:03:34: Timer activated/deactivated successfully.
+11-01-2023, 08:03:36: Timer activated/deactivated successfully.
+11-01-2023, 08:05:21: Timer activated/deactivated successfully.
+11-01-2023, 08:05:21: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+11-01-2023, 08:06:20: Timer added successfully.
+11-01-2023, 08:11:15: Attempt initiation of sensibo.
+11-01-2023, 08:11:15: Successfully connected to sensibo
+11-01-2023, 08:11:15: Change setting to: OFF
+11-01-2023, 08:12:22: Attempt initiation of sensibo.
+11-01-2023, 08:12:23: Successfully connected to sensibo
+11-01-2023, 08:12:23: Change setting to: OFF
+11-01-2023, 08:12:27: Initialization successful.
+11-01-2023, 08:13:59: Attempt initiation of sensibo.
+11-01-2023, 08:14:01: Successfully connected to sensibo
+11-01-2023, 08:14:01: Change setting to: OFF
+11-01-2023, 08:14:05: Initialization successful.
+11-01-2023, 08:14:07: Timer activated/deactivated successfully.
+11-01-2023, 08:14:07: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+11-01-2023, 08:15:42: Attempt initiation of sensibo.
+11-01-2023, 08:15:44: Successfully connected to sensibo
+11-01-2023, 08:15:44: Change setting to: OFF
+11-01-2023, 08:15:47: Initialization successful.
+11-01-2023, 08:15:51: Timer activated/deactivated successfully.
+11-01-2023, 08:16:08: Timer activated/deactivated successfully.
+11-01-2023, 08:16:13: Timer activated/deactivated successfully.
+11-01-2023, 08:16:16: Timer activated/deactivated successfully.
+11-01-2023, 08:16:18: Timer activated/deactivated successfully.
+11-01-2023, 08:16:35: Timer added successfully.
+11-01-2023, 08:16:58: Timer added successfully.
+11-01-2023, 08:17:22: Timer deleted successfully.
+11-01-2023, 08:17:29: Timer deleted successfully.
+11-01-2023, 08:28:15: Timer deleted successfully.
+11-01-2023, 08:28:20: Timer deleted successfully.
+11-01-2023, 08:32:21: Timer activated/deactivated successfully.
+11-01-2023, 08:32:26: Timer activated/deactivated successfully.
+11-01-2023, 08:32:29: Timer activated/deactivated successfully.
+16-01-2023, 19:42:56: Attempt initiation of sensibo.
+16-01-2023, 19:42:56: Successfully connected to sensibo
+16-01-2023, 19:42:56: Initialize to temperature: 22.0
+16-01-2023, 19:42:57: The current room temperature is:19.4
+16-01-2023, 19:42:57: Room temp - set temp = -2.6000000000000014
+16-01-2023, 19:42:57: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 25}
+16-01-2023, 19:43:03: Initialization successful.
+16-01-2023, 19:43:06: Change setting to: OFF
+04-02-2023, 21:48:53: Attempt initiation of sensibo.
+04-02-2023, 21:48:54: Successfully connected to sensibo
+04-02-2023, 21:48:54: Change setting to: OFF
+04-02-2023, 21:48:57: Initialization successful.
+04-02-2023, 21:49:05: Change temperature setting to: 22.0
+04-02-2023, 21:49:05: The current room temperature is:20
+04-02-2023, 21:49:05: Room temp - set temp = -2.0
+04-02-2023, 21:49:05: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 21:49:17: Change setting to: OFF
+04-02-2023, 21:49:44: Change setting to: OFF
+04-02-2023, 21:49:52: Change setting to: OFF
+04-02-2023, 21:53:32: Attempt initiation of sensibo.
+04-02-2023, 21:53:33: Successfully connected to sensibo
+04-02-2023, 21:53:33: Initialize to temperature: 21.0
+04-02-2023, 21:53:33: The current room temperature is:20
+04-02-2023, 21:53:33: Room temp - set temp = -1.0
+04-02-2023, 21:53:33: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 21:53:44: Initialization successful.
+04-02-2023, 21:53:47: Change setting to: OFF
+04-02-2023, 22:51:54: Attempt initiation of sensibo.
+04-02-2023, 22:51:55: Successfully connected to sensibo
+04-02-2023, 22:51:56: Check override...
+04-02-2023, 22:51:57: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:51:57: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:51:59: Override=False
+04-02-2023, 22:51:59: Initialization successful.
+04-02-2023, 22:53:05: Attempt initiation of sensibo.
+04-02-2023, 22:53:06: Successfully connected to sensibo
+04-02-2023, 22:53:08: Check override...
+04-02-2023, 22:53:10: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:53:10: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:53:14: Override=False
+04-02-2023, 22:53:14: Check override...
+04-02-2023, 22:53:16: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:53:16: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:53:17: Override=False
+04-02-2023, 22:53:17: The current room temperature is:19.5
+04-02-2023, 22:53:17: Room temp - set temp = -2.0
+04-02-2023, 22:53:17: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:53:20: Initialization successful.
+04-02-2023, 22:54:48: Attempt initiation of sensibo.
+04-02-2023, 22:54:48: Successfully connected to sensibo
+04-02-2023, 22:54:50: Check override...
+04-02-2023, 22:54:53: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:54:53: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:54:55: Override=True
+04-02-2023, 22:54:55: Check override...
+04-02-2023, 22:54:56: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:54:56: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+04-02-2023, 22:54:56: Override=True
+04-02-2023, 22:54:56: Initialization successful.
+04-02-2023, 22:55:05: Change temperature setting to: 22.0
+04-02-2023, 22:55:05: The current room temperature is:19.6
+04-02-2023, 22:55:05: Room temp - set temp = -2.3999999999999986
+04-02-2023, 22:55:05: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:57:30: Check override...
+04-02-2023, 22:57:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:57:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 22:57:36: Override=False
+04-02-2023, 22:57:36: The current room temperature is:19.6
+04-02-2023, 22:57:36: Room temp - set temp = -2.3999999999999986
+04-02-2023, 23:00:30: Check override...
+04-02-2023, 23:00:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:00:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:00:33: Override=False
+04-02-2023, 23:00:34: The current room temperature is:20
+04-02-2023, 23:00:34: Room temp - set temp = -2.0
+04-02-2023, 23:03:30: Check override...
+04-02-2023, 23:03:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:03:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:03:33: Override=False
+04-02-2023, 23:03:34: The current room temperature is:20.3
+04-02-2023, 23:03:34: Room temp - set temp = -1.6999999999999993
+04-02-2023, 23:06:30: Check override...
+04-02-2023, 23:06:33: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:06:33: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:06:34: Override=False
+04-02-2023, 23:06:35: The current room temperature is:20.7
+04-02-2023, 23:06:35: Room temp - set temp = -1.3000000000000007
+04-02-2023, 23:09:30: Check override...
+04-02-2023, 23:09:31: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+04-02-2023, 23:09:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+04-02-2023, 23:09:32: Override=True
+06-02-2023, 20:05:09: Attempt initiation of sensibo.
+06-02-2023, 20:05:10: Successfully connected to sensibo
+06-02-2023, 20:05:10: Initialize to temperature: 21.0
+06-02-2023, 20:05:10: The current room temperature is:20.4
+06-02-2023, 20:05:10: Room temp - set temp = -0.6000000000000014
+06-02-2023, 20:05:10: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:05:19: Initialization successful.
+06-02-2023, 20:05:28: Timer activated/deactivated successfully.
+06-02-2023, 20:05:32: Timer activated/deactivated successfully.
+06-02-2023, 20:05:37: Timer deleted successfully.
+06-02-2023, 20:06:00: Timer added successfully.
+06-02-2023, 20:06:30: Check override...
+06-02-2023, 20:06:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:06:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:06:34: Timer added successfully.
+06-02-2023, 20:06:35: Override=False
+06-02-2023, 20:06:35: The current room temperature is:20.7
+06-02-2023, 20:06:35: Room temp - set temp = -0.3000000000000007
+06-02-2023, 20:09:30: Check override...
+06-02-2023, 20:09:31: current state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:09:31: local state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:09:33: Override=False
+06-02-2023, 20:09:33: The current room temperature is:21
+06-02-2023, 20:09:33: Room temp - set temp = 0.0
+06-02-2023, 20:09:35: Setting AC to state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:12:30: Check override...
+06-02-2023, 20:12:34: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:12:34: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 22}
+06-02-2023, 20:12:37: Override=False
+06-02-2023, 20:12:38: The current room temperature is:20.7
+06-02-2023, 20:12:38: Room temp - set temp = -0.3000000000000007
+06-02-2023, 20:13:46: Attempt initiation of sensibo.
+06-02-2023, 20:13:48: Successfully connected to sensibo
+06-02-2023, 20:13:48: Initialize to temperature: 22.0
+06-02-2023, 20:13:48: The current room temperature is:20.5
+06-02-2023, 20:13:48: Room temp - set temp = -1.5
+06-02-2023, 20:13:48: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+06-02-2023, 20:13:53: Initialization successful.
+06-02-2023, 20:14:09: Timer added successfully.
+06-02-2023, 20:14:14: Timer activated/deactivated successfully.
+06-02-2023, 20:14:17: Timer activated/deactivated successfully.
+06-02-2023, 20:14:21: Timer activated/deactivated successfully.
+06-02-2023, 20:15:17: Attempt initiation of sensibo.
+06-02-2023, 20:15:17: Successfully connected to sensibo
+06-02-2023, 20:15:17: Change setting to: OFF
+06-02-2023, 20:15:22: Initialization successful.
+06-02-2023, 20:15:25: Timer activated/deactivated successfully.
+06-02-2023, 20:15:27: Timer activated/deactivated successfully.
+06-02-2023, 20:15:29: Timer activated/deactivated successfully.
+06-02-2023, 20:15:32: Timer deleted successfully.
+06-02-2023, 20:15:47: Timer added successfully.
+06-02-2023, 20:16:01: Timer added successfully.
+06-02-2023, 20:16:27: Timer added successfully.
+06-02-2023, 20:28:53: Attempt initiation of sensibo.
+06-02-2023, 20:28:53: Successfully connected to sensibo
+06-02-2023, 20:28:53: Initialize to temperature: 22.0
+06-02-2023, 20:28:54: The current room temperature is:19.7
+06-02-2023, 20:28:54: Room temp - set temp = -2.3000000000000007
+06-02-2023, 20:28:54: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+06-02-2023, 20:29:00: Initialization successful.
+06-02-2023, 20:29:04: Timer activated/deactivated successfully.
+06-02-2023, 20:29:10: Timer activated/deactivated successfully.
+06-02-2023, 20:29:37: Timer added successfully.
+06-02-2023, 20:29:41: Timer activated/deactivated successfully.
+06-02-2023, 20:29:43: Timer activated/deactivated successfully.
+06-02-2023, 20:30:00: Change setting to: OFF
+06-02-2023, 20:30:07: Timer added successfully.
+06-02-2023, 20:30:09: Timer activated/deactivated successfully.
+06-02-2023, 20:30:25: Timer added successfully.
+06-02-2023, 20:30:30: Timer activated/deactivated successfully.
+06-02-2023, 20:30:31: Timer activated/deactivated successfully.
+06-02-2023, 20:30:34: Timer deleted successfully.
+06-02-2023, 20:30:52: Timer added successfully.
+06-02-2023, 20:31:39: Timer added successfully.
+06-02-2023, 20:31:43: Timer deleted successfully.
+06-02-2023, 20:32:00: Change temperature setting to: 21.7
+06-02-2023, 20:32:00: The current room temperature is:19.7
+06-02-2023, 20:32:00: Room temp - set temp = -2.0
+06-02-2023, 20:32:00: Setting AC to state:{'on': True, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 24}
+23-12-2023, 22:56:55: Attempt initiation of sensibo.
+23-12-2023, 22:56:56: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 22:56:56: Details of exception:
+23-12-2023, 22:56:56: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x107bca950%3E')")
+23-12-2023, 22:58:07: Attempt initiation of sensibo.
+23-12-2023, 22:58:07: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 22:58:07: Details of exception:
+23-12-2023, 22:58:07: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x109b16950%3E')")
+23-12-2023, 22:58:31: Attempt initiation of sensibo.
+23-12-2023, 22:58:31: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 22:58:31: Details of exception:
+23-12-2023, 22:58:31: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x111106950%3E')")
+23-12-2023, 22:59:03: Attempt initiation of sensibo.
+23-12-2023, 22:59:04: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 22:59:04: Details of exception:
+23-12-2023, 22:59:04: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x10348a950%3E')")
+23-12-2023, 23:03:22: Attempt initiation of sensibo.
+23-12-2023, 23:03:23: Successfully connected to sensibo
+23-12-2023, 23:03:23: Change setting to: OFF
+23-12-2023, 23:03:27: Initialization successful.
+23-12-2023, 23:03:52: Attempt initiation of sensibo.
+23-12-2023, 23:03:53: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:03:53: Details of exception:
+23-12-2023, 23:03:53: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x106f22950%3E')")
+23-12-2023, 23:04:01: Attempt initiation of sensibo.
+23-12-2023, 23:04:01: Successfully connected to sensibo
+23-12-2023, 23:04:01: Change setting to: OFF
+23-12-2023, 23:04:06: Initialization successful.
+23-12-2023, 23:04:06: Error reading sensibo temperature.
+Details of exception:
+UnboundLocalError("local variable 'sensi' referenced before assignment")
+23-12-2023, 23:05:55: Error reading sensibo temperature.
+Details of exception:
+UnboundLocalError("local variable 'sensi' referenced before assignment")
+23-12-2023, 23:06:19: Attempt initiation of sensibo.
+23-12-2023, 23:06:20: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:06:20: Details of exception:
+23-12-2023, 23:06:20: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x10e3c6950%3E')")
+23-12-2023, 23:06:35: Attempt initiation of sensibo.
+23-12-2023, 23:06:36: Successfully connected to sensibo
+23-12-2023, 23:06:36: Change setting to: OFF
+23-12-2023, 23:06:41: Initialization successful.
+23-12-2023, 23:09:04: Attempt initiation of sensibo.
+23-12-2023, 23:09:05: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:09:05: Details of exception:
+23-12-2023, 23:09:05: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x105d46950%3E')")
+23-12-2023, 23:11:15: Attempt initiation of sensibo.
+23-12-2023, 23:11:15: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:11:15: Details of exception:
+23-12-2023, 23:11:15: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x1040e2950%3E')")
+23-12-2023, 23:12:43: Attempt initiation of sensibo.
+23-12-2023, 23:12:43: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:12:43: Details of exception:
+23-12-2023, 23:12:43: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x104792950%3E')")
+23-12-2023, 23:13:47: Attempt initiation of sensibo.
+23-12-2023, 23:13:48: Successfully connected to sensibo
+23-12-2023, 23:13:48: Change setting to: OFF
+23-12-2023, 23:13:52: Initialization successful.
+23-12-2023, 23:14:28: Timer activated/deactivated successfully.
+23-12-2023, 23:14:28: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+23-12-2023, 23:14:48: Timer activated/deactivated successfully.
+23-12-2023, 23:14:48: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+23-12-2023, 23:14:59: Timer activated/deactivated successfully.
+23-12-2023, 23:14:59: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+23-12-2023, 23:15:28: Attempt initiation of sensibo.
+23-12-2023, 23:15:29: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+23-12-2023, 23:15:29: Details of exception:
+23-12-2023, 23:15:29: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x10cea6950%3E')")
+23-12-2023, 23:15:35: Attempt initiation of sensibo.
+23-12-2023, 23:15:35: Successfully connected to sensibo
+23-12-2023, 23:15:35: Change setting to: OFF
+23-12-2023, 23:15:40: Initialization successful.
+23-12-2023, 23:15:56: Timer added successfully.
+23-12-2023, 23:16:24: Timer added successfully.
+23-12-2023, 23:16:35: Timer deleted successfully.
+23-12-2023, 23:16:45: Timer activated/deactivated successfully.
+23-12-2023, 23:16:45: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+23-12-2023, 23:17:17: Timer added successfully.
+25-12-2023, 20:16:53: Attempt initiation of sensibo.
+25-12-2023, 20:16:53: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+25-12-2023, 20:16:53: Details of exception:
+25-12-2023, 20:16:53: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x104d46950%3E')")
+25-12-2023, 20:17:59: Attempt initiation of sensibo.
+25-12-2023, 20:18:00: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+25-12-2023, 20:18:00: Details of exception:
+25-12-2023, 20:18:00: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x109852950%3E')")
+25-12-2023, 20:19:11: Attempt initiation of sensibo.
+25-12-2023, 20:19:12: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+25-12-2023, 20:19:12: Details of exception:
+25-12-2023, 20:19:12: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x104cfe950%3E')")
+25-12-2023, 20:19:49: Attempt initiation of sensibo.
+25-12-2023, 20:19:49: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+25-12-2023, 20:19:49: Details of exception:
+25-12-2023, 20:19:49: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x104cfe950%3E')")
+25-12-2023, 20:20:00: Attempt initiation of sensibo.
+25-12-2023, 20:20:01: Unable to connect to sensibo or db. Sensibo might be offline or api key/room name may be invalid.
+25-12-2023, 20:20:01: Details of exception:
+25-12-2023, 20:20:01: Exception("Cannot open sensibo client...\nDetails of exception:\nHTTPError('403 Client Error: Forbidden for url: https://home.sensibo.com/api/v2/users/me/pods?fields=id%2Croom&apiKey=%3Cfunction+api+at+0x1038be950%3E')")
+25-12-2023, 20:22:21: Attempt initiation of sensibo.
+25-12-2023, 20:22:21: Successfully connected to sensibo
+25-12-2023, 20:22:23: Check override...
+25-12-2023, 20:22:24: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:22:24: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:22:26: Override=False
+25-12-2023, 20:22:26: Initialization successful.
+25-12-2023, 20:23:23: Timer activated/deactivated successfully.
+25-12-2023, 20:23:23: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+25-12-2023, 20:25:47: Attempt initiation of sensibo.
+25-12-2023, 20:25:48: Successfully connected to sensibo
+25-12-2023, 20:25:50: Check override...
+25-12-2023, 20:25:51: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:25:51: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:25:52: Override=False
+25-12-2023, 20:25:52: Initialization successful.
+25-12-2023, 20:26:03: Timer added successfully.
+25-12-2023, 20:26:12: Timer added successfully.
+25-12-2023, 20:26:23: Timer added successfully.
+25-12-2023, 20:26:34: Timer deleted successfully.
+25-12-2023, 20:27:30: Timer activated/deactivated successfully.
+25-12-2023, 20:27:30: Error updating timer file. Possible discrepancy may exist between timer file and internal timer variable.
+25-12-2023, 20:30:13: Attempt initiation of sensibo.
+25-12-2023, 20:30:14: Successfully connected to sensibo
+25-12-2023, 20:30:16: Check override...
+25-12-2023, 20:30:17: current state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:30:17: local state:{'on': False, 'mode': 'heat', 'fanLevel': 'high', 'targetTemperature': 21}
+25-12-2023, 20:30:18: Override=False
+25-12-2023, 20:30:18: Initialization successful.
+25-12-2023, 20:30:21: Timer activated/deactivated successfully.
+25-12-2023, 20:30:35: Timer activated/deactivated successfully.

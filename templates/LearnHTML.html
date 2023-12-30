@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Out HTML</title>
+</head>
+<body>
+    <table id="tempTable">
+        <tr>
+          <th>Time</th>
+          <th>Day</th>
+          <th>Temperature</th>
+          <th>Remove</th>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td>M T</td>
+          <td>22</td>
+          <td><button type="button" onClick="remove(this)" value="remove"></button></td>
+        </tr>
+        <tr>
+            <td>17:00</td>
+            <td>M</td>
+            <td>Off</td>
+            <td><button type="button" onClick="remove(this)" value="remove"></button></td>
+          </tr>
+      </table>
+
+
+
+<p id="par">A Paragraph</p>
+<button type="button" onclick="buttonPress()">Try it</button>
+<script>
+    function buttonPress() {
+        document.getElementById("par").innerHTML = "Button Pressed";
+    }
+    function remove(id) {
+        var i = id.parentNode.parentNode.rowIndex;
+        table=document.getElementById("tempTable");
+        table.deleteRow(i);
+    }
+
+</script>
+</body>
+</html>

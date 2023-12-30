@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AC Startup</title>
+</head>
+<body>
+    <form method="post">
+        <label for="api">API:</label>
+        <input type="text" id="api" name="api" value=""><br>
+        <label for="temp">Temperature:</label>
+        <input type="text" id="temp" name="temperature" value=""><br>
+        <input type="submit" name="mode" value="Auto">
+        <input type="submit" name="mode" value="Cool">
+        <input type="submit" name="mode" value="Heat">
+        <input type="submit" name="mode" value="Off">
+        <input type="submit" name="mode" value="Shutdown">
+        <input type="hidden" name="form" value="setup">
+    </form> 
+    <br>
+
+<script>
+  if ( window.history.replaceState ) {
+    window.history.replaceState( null, null, window.location.href );
+  }
+</script>
+<script>
+    function getCurrentURL () {
+      return window.location.href
+    }   
+    function remove(id) {
+        var i = id.parentNode.parentNode.rowIndex;
+        // table=document.getElementById("tempTable");
+        // table.deleteRow(i);
+        
+      /*  var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            "id": i, "form": "deletetimer"
+        }));
+        */
+        const url = getCurrentURL()
+        fetch(url, {
+        method: "POST",
+        headers: {'Content-Type': 'application/json'}, 
+        body: JSON.stringify({ "id": i, "form": "deletetimer"})
+        }).then(res => {
+        console.log("Request complete! response:", res);
+        location.reload();
+        });
+    }
+
+</script>
+</body>
+</html>
