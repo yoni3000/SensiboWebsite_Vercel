@@ -43,5 +43,14 @@ app.config['SECRET_KEY'] = 'your secret key'
 
 @app.route("/", methods=('GET', 'POST'))
 def main():
-
+    sched.add_job(
+        printer,
+        'cron',
+        timezone='Israel',
+        minute='0,3,6,7,8,9,10,11,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57',
+        second=30,
+        id="main")
     return "hello"
+
+def printer():
+    print("yes")
