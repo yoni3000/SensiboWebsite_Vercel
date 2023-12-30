@@ -43,7 +43,9 @@ app.config['SECRET_KEY'] = 'your secret key'
 
 @app.route("/", methods=('GET', 'POST'))
 def main():
+    global initialized
     print('test')
+    if not initialized:
    # sensi = SensiboControl(api=api_key,
    #                         set_temperature=23,
    #                         set_mode='heat',
@@ -51,11 +53,12 @@ def main():
    #                         set_override=False,
    #                         set_log=True,
    #                         set_log_name="Log.txt")
-    sched.add_job(
-        printer,
-        'interval',
-        seconds=30)
-    sched.start()
+        sched.add_job(
+            printer,
+            'interval',
+            seconds=30)
+        sched.start()
+        initialized = True
     return "hello"
 
 def printer():
