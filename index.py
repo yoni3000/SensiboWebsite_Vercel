@@ -44,13 +44,19 @@ app.config['SECRET_KEY'] = 'your secret key'
 @app.route("/", methods=('GET', 'POST'))
 def main():
     print('test')
+    sensi = SensiboControl(api=api_key,
+                           set_temperature=23,
+                           set_mode='heat',
+                           set_on=True,
+                           set_override=False,
+                           set_log=True,
+                           set_log_name="Log.txt")
     sched.add_job(
-        printer,
-        'cron',
-        timezone='Israel',
-        minute='0,3,6,7,8,9,10,11,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57',
-        second=30,
+        sensi.poll,
+        'interval',
+        seconds=30,
         id="main")
+    sched.start()
     return "hello"
 
 def printer():

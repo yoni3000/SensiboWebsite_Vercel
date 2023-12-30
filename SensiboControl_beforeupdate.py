@@ -49,6 +49,9 @@ class SensiboControl:
     current_setting_file = state_file
     error_off = False
 
+    if logging:
+      logger = Logger(log_name)
+
     # initialize sensibo client
     try:
       client = SensiboClientAPI(api)
@@ -296,7 +299,11 @@ class SensiboControl:
 
   def write_setting(self):
     global current_setting_file, temperature, On, mode, override, local_ac_state
-    print("dummy for write setting")
+    fileReader = open(current_setting_file, 'w')
+    fileReader.writelines([str(temperature), "\n" + mode, "\n" + str(On), "\n" + str(override) + "\n"])
+    fileReader.write(str(local_ac_state) + "\n")
+    fileReader.write(logger.timestamp())
+    fileReader.close()
 
   def poll(self):
     try:
@@ -313,4 +320,5 @@ class SensiboControl:
     global logging, logger
     message = str(message)
     print(message)
-
+    if logging:
+      logger.log(message)
