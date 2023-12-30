@@ -56,7 +56,7 @@ def main():
         'interval',
         seconds=30,
         id="main")
-    sched.start()
+   # sched.start()
     return "hello"
 
 def printer():
