@@ -54,8 +54,7 @@ def main():
     sched.add_job(
         printer,
         'interval',
-        seconds=30,
-        id="main")
+        seconds=30)
     sched.start()
     return "hello"
 
